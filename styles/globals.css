@@ -2,6 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  background-color: #f8f8f8;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +14,80 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+
+/* navbar styles */
+
+.navbar{
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #023047;
+}
+
+.nav-link-container{  
+  display: flex;
+  height: 100%;
+  
+}
+
+h3{
+  color:#FFB703;
+}
+
+.nav-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: #FFB703;
+  background-color: #023047;
+  border: none;
+  font-weight: 600;
+}
+
+.nav-link:hover{
+  background: #FFB703;
+  color: #023047;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+
+.filterAnimate-enter {
+  opacity: 0;
+ 
+} 
+.filterAnimate-active {
+  opacity: 0;
+  transition: opacity 800ms;
+} 
+.filterAnimate-exit {
+  opacity: 0;
+} 
+.filterAnimate-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+} 
+
+.footer {
+  height: 140px; 
+  background-color: #023047;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8f8f8;
+  width: 100%;
+  margin-top: auto;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    height: 100px;
+  }
 }

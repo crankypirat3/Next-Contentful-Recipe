@@ -1,0 +1,154 @@
+.filterComponent {
+    background-color: rgba(156, 160, 160, 0.342);
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    min-height: 400px;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 6px;
+    padding: 8px;
+    /* border: 1px solid #334155; */
+    box-shadow: 0 0px 10px 2px #334155;
+    transition: 1s;
+}
+
+@media (max-width: 740px) {
+    .filterComponent {
+        margin: 10px 20px;
+    }
+}
+
+.filterHeader { 
+    text-align: center;
+    color: #023047;
+    margin: 10px;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+}
+
+.filterTitle {
+    color:#023047;
+}
+
+.filterCheckboxList {
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filterCheckbox {
+    margin: 4px 25px ;
+    display: flex;
+    align-items: center;
+}
+
+.filterCheckboxInput {
+    height: 20px;
+    width: 20px;
+    background-color: #FFB703;
+}
+.filterCheckboxInput:hover {
+    cursor: pointer;
+}
+
+.filterCheckboxLabel {
+    margin-left: 6px;
+}
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.slider {
+    max-width: 250px;
+    color: #FFB703;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* .filterSelect {
+    margin:20px 0;
+    outline: none;
+    
+}
+
+.filterSelect:hover {
+    cursor: pointer;
+}
+
+.filterOption {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.filterOption::after {
+    cursor: pointer;
+    background-color: #FFB703;
+}
+*/
+
+.filterButton {
+    background-color: #FFB703;
+    color: #023047;
+    border: none;
+    padding: 13px 36px;
+    font-size: 1.2rem;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    border-radius: 12px;
+    margin: 50px auto 20px auto;
+}
+
+.filterButton:hover {
+    cursor: pointer;
+    background-color: #023047;
+    color: #FFB703;
+    transition: .5s;
+} 
+
+
+/* Animation For Entrance and Exit  */
+/* @-webkit-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-moz-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+@-o-keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+} */
+/* @keyframes SHOW-BOX {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+} */
+
+/* .showBox {
+    -webkit-animation: SHOW-BOX 2s infinite;
+    -moz-animation: SHOW-BOX 2s ease;
+    -o-animation: SHOW-BOX 2s ease;
+    animation: SHOW-BOX 2s ease alternate;
+} */
+
+  /* .filterAnimate-enter {
+    opacity: 0;
+  } 
+  .filterAnimate-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  } 
+  .filterAnimate-exit {
+    opacity: 1;
+  } 
+  .filterAnimate-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }  */
